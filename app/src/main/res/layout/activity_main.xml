@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:layout_marginRight   ="20dp"
+        android:layout_marginTop="20dp"
+        android:queryHint="Search an English word..."
+
+
+        />
+
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft   ="20dp"
+        android:layout_marginTop="20dp"
+        android:text="I am here"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/greyText"
+        />
+    <ListView
+
+        android:id="@+id/result_list_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft   ="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:dividerHeight="5.0sp"
+        />
+
+
+</LinearLayout>

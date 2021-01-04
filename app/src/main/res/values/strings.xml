@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+    <color name="grey">#4a4a4a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="greyText">#aeaeae</color>
+
+
+</resources>

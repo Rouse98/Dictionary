@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/grey"
+    android:contentInsetEnd="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetStart="0dp"
+
+
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="日本語辞書: Japanese Dictionary"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        />
+
+</androidx.appcompat.widget.Toolbar>
